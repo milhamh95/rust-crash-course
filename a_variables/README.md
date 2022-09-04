@@ -33,8 +33,8 @@
 ### Extra challenges
 
 - [x] Explicitly annotate the variables with the type `i32`
-- [ ] Try binding the variables all at once on one line using a pattern (parentheses and commas) -- can you figure out where `mut` goes?
-  - [ ] Can you figure out the correct type annotation when you assign them all in one line?  Hint: it will use the same sort of pattern as the variables and values.
+- [x] Try binding the variables all at once on one line using a pattern (parentheses and commas) -- can you figure out where `mut` goes?
+  - [x] Can you figure out the correct type annotation when you assign them all in one line?  Hint: it will use the same sort of pattern as the variables and values.
 - [ ] Instead of changing missiles, use the value `missiles - ready` directly in the second `println!(...)`
   - What warning does cargo emit when you run your program now? Can you fix it?
 - [ ] Add another variable to your program *but don't use it*.
