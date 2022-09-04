@@ -55,4 +55,12 @@ It gives this warning
 warning: unused variable: `jet`
 ```
 
-- [ ] Try modifying a constant in `main()` (for example, `READY_AMOUNT = 1`). What does the error look like?
+- [x] Try modifying a constant in `main()` (for example, `READY_AMOUNT = 1`). What does the error look like?
+
+```
+|
+11 |     READY_AMOUNT = 1;
+   |     ------------ ^
+   |     |
+   |     cannot assign to this expression
+```
