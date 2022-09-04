@@ -4,8 +4,8 @@
 
 - [x] Make a new project named `variables` using cargo
   - See "cargo help" if you forgot the command.
-- [ ] Open `Cargo.toml`
-  - [ ] Change the version number to `2.3.4` and save the file.  Keep an eye out for that version number in cargo's output when you run it!
+- [x] Open `Cargo.toml`
+  - [x] Change the version number to `2.3.4` and save the file.  Keep an eye out for that version number in cargo's output when you run it!
 - [ ] In `src/main.rs` at the start of the `main()` function:
   - [ ] Declare the variable `missiles` and initialize it to `8`
   - [ ] Declare the variable `ready` and initialize it to `2`
