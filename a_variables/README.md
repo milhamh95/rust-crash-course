@@ -46,6 +46,13 @@ warning: variable does not need to be mutable
 
 We can fix this by removing `mut` keyword.
 
-- [ ] Add another variable to your program *but don't use it*.
+- [x] Add another variable to your program *but don't use it*.
   - What does cargo say when you run your program?
+
+It gives this warning
+
+```
+warning: unused variable: `jet`
+```
+
 - [ ] Try modifying a constant in `main()` (for example, `READY_AMOUNT = 1`). What does the error look like?

@@ -7,4 +7,6 @@ fn main() {
 
     // missiles = missiles - ready;
     println!("{} missiles left", missiles - ready);
+
+    let jet: i32 = 9;
 }
