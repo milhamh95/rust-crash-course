@@ -37,6 +37,15 @@
   - [x] Can you figure out the correct type annotation when you assign them all in one line?  Hint: it will use the same sort of pattern as the variables and values.
 - [ ] Instead of changing missiles, use the value `missiles - ready` directly in the second `println!(...)`
   - What warning does cargo emit when you run your program now? Can you fix it?
+
+It gives this warning
+
+```
+warning: variable does not need to be mutable
+```
+
+We can fix this by removing `mut` keyword.
+
 - [ ] Add another variable to your program *but don't use it*.
   - What does cargo say when you run your program?
 - [ ] Try modifying a constant in `main()` (for example, `READY_AMOUNT = 1`). What does the error look like?
