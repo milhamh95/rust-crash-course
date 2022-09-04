@@ -5,13 +5,14 @@ fn main() {
     let width = 4;
     let height = 7;
     let depth = 10;
+    let area = area_of(width, height);
     // 1. Try running this code with `cargo run` and take a look at the error.
     //
     // See if you can fix the error. It is right around here, somewhere.  If you succeed, then
     // doing `cargo run` should succeed and print something out.
-    {
-        let area = area_of(width, height);
-    }
+    // {
+    //     let area = area_of(width, height);
+    // }
     println!("Area is {}", area);
 
     // 2. The area that was calculated is not correct! Go fix the area_of() function below, then run
