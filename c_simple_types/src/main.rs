@@ -19,6 +19,9 @@ fn main() {
     //let coords_arr...               // create an array literal out of parts of `coord` here
     //print_array(coords_arr);        // and pass it in here (this line doesn't need to change)
 
+    let coords_arr: [f32; 2] = [coords.0, coords.1];
+    print_array(coords_arr);
+
     let series = [1, 1, 2, 3, 5, 8, 13];
     // 3. Make the `ding` function happy by passing it the value 13 out of the `series` array.
     // Use array indexing.  Done correctly, `cargo run` will produce the additional output
