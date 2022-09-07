@@ -35,6 +35,7 @@ fn main() {
     // `cargo run` will produce the additional output "Lights are on!" I'll get you started:
     //
     //on_off(mess.2 ...);
+    on_off(mess.2[1].0);
 
     // 5.  What a mess -- functions in a binary! Let's get organized!
     //
