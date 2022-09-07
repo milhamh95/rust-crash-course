@@ -28,6 +28,7 @@ fn main() {
     // "Ding, you found 13!"
     //
     //ding(...);
+    ding(series[6]);
 
     let mess = ([3, 2], 3.14, [(false, -3), (true, -100)], 5, "candy");
     // 4. Pass the `on_off` function the value `true` from the variable `mess`.  Done correctly,
